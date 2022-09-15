@@ -43,16 +43,16 @@ h1{
 #borderDiv{
     border: 1px white solid; width: 85%;
 }
-#allDivs{
+/* #allDivs{
     display: flex; justify-content: space-between;
     line-height: 5px
 }
 img{
     margin-top: -50px;
-}
+} */
 #clock{
     font-size: 2em;
 }
 @media all and (min-width:321px) and (max-width:375px){
-    
+
 }
