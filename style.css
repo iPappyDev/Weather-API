@@ -9,7 +9,9 @@
     background-image: url("cloud-06.jpeg");
 }
 #mainContainerSection1{
-    width: 70%; padding-left: 100px; padding-top: 10vh;
+    width: 70%;
+    padding-left: 100px;
+    padding-top: 10vh;
 }
 button{
     background-color: white;
@@ -18,7 +20,10 @@ button{
 }
 #mainContainerSection1 input{
     background-color: transparent;
-    border: 0; width: 35%; border-bottom: 1px solid white; outline: none;
+    border: 0;
+    width: 35%;
+    border-bottom: 1px solid white;
+    outline: none;
     font-size: 1.5em;
 }
 h1{
@@ -28,23 +33,31 @@ h1{
     font-size: 2em;
 }
 #section1Div{
-    margin-top: 55vh; width: 30%; line-height: 70px
+    margin-top: 55vh; 
+    width: 30%; 
+    line-height: 70px
 }
 #mainContainerSection2{
-    width: 30%; padding-left: 50px; padding-top: 20vh; box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
+    width: 30%; 
+    padding-left: 50px; 
+    padding-top: 20vh; 
+    box-shadow: 5px 5px 30px rgba(0, 0, 0, 0.4);
 }
 #mainContainerSection2 h3{
     padding-bottom: 50px;
     /* font-size: 2.5em; */
 }
 #mainContainerSection2 div{
-    width: 85%; line-height: 50px;
+    width: 85%;
+    line-height: 50px;
 }
 #borderDiv{
-    border: 1px white solid; width: 85%;
+    border: 1px white solid;
+    width: 85%;
 }
 #allDivs{
-    display: flex; justify-content: space-between;
+    display: flex; 
+    justify-content: space-between;
     line-height: 5px
 }
 img{
