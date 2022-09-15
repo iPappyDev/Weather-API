@@ -19,25 +19,25 @@ async function search (){
     gust.innerHTML = `${jsonResponse.wind.gust}${"Km/hr"}`
 }
 
-const thisPage = ()=>{
-    const timeDisp = ()=>{
-    const time = new Date();
+// const thisPage = ()=>{
+//     const timeDisp = ()=>{
+//     const time = new Date();
 
-    const hour = timeFormat((time.getHours()))
-    const minutes = timeFormat((time.getMinutes()))
-    const day = timeFormat((time.getDay()))
-    const month = timeFormat((time.getMonth()))
-    const year = timeFormat((time.getFullYear()))
-    clock.innerHTML = `<h3>Time ${hour}:${minutes}:${day} <br> ${day}:${month}:${year}</h3>`
-    }
-    setInterval(timeDisp, 1000);
+//     const hour = timeFormat((time.getHours()))
+//     const minutes = timeFormat((time.getMinutes()))
+//     const day = timeFormat((time.getDay()))
+//     const month = timeFormat((time.getMonth()))
+//     const year = timeFormat((time.getFullYear()))
+//     clock.innerHTML = `<h3>Time ${hour}:${minutes}:${day} <br> ${day}:${month}:${year}</h3>`
+//     }
+//     setInterval(timeDisp, 1000);
 
-    const timeFormat = (timer)=>{
-        if(timer<10){
-        return '0'+timer
-        }
-        else{
-            return timer
-        }
-    }
-}
+//     const timeFormat = (timer)=>{
+//         if(timer<10){
+//         return '0'+timer
+//         }
+//         else{
+//             return timer
+//         }
+//     }
+// }

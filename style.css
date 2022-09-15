@@ -43,16 +43,36 @@ h1{
 #borderDiv{
     border: 1px white solid; width: 85%;
 }
-/* #allDivs{
+#allDivs{
     display: flex; justify-content: space-between;
     line-height: 5px
 }
 img{
     margin-top: -50px;
-} */
+}
 #clock{
     font-size: 2em;
 }
-@media all and (min-width:321px) and (max-width:375px){
-
+@media all and (max-width:320px){
+    .mainContainer{
+        flex-direction: column;
+        background-image: url("cloud-06.jpeg");
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    #mainContainerSection1{
+        height: 100vh;
+        padding-left: 20px;
+    }
+    #mainContainerSection2{
+        width: 70%;
+        height: 100vh;
+        background-image: url("cloud-06.jpeg");
+        background-repeat: repeat;
+        background-size: cover;
+        padding-top: 4vh;
+    }
 }
+/* @media all and (min-width:321px) and (max-width:375px){
+    
+} */
