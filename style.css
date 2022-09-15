@@ -119,3 +119,36 @@ img{
         margin-top: -30px;
     }
 }
+@media all and (min-width:376px) and (max-width:425px){
+    .mainContainer{
+        flex-direction: column;
+        background-image: url("cloud-06.jpeg");
+        background-repeat: repeat;
+        background-size: cover;
+    }
+    #mainContainerSection1{
+        position: absolute;
+        height: 100vh;
+        padding-left: 20px;
+        padding-top: 5vh
+
+    }
+    #mainContainerSection2{
+        position: absolute;
+        width: 88%;
+        background-image: url("cloud-06.jpeg");
+        background-repeat: repeat;
+        background-size: cover;
+        padding-top: 4vh;
+        margin-top: 90vh;
+    }
+    #section1Div{
+        line-height: 60px;
+    }
+    #allDivs{
+        line-height: 20px;
+    }
+    img{
+        margin-top: -30px;
+    }
+}
